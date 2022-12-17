@@ -25,8 +25,10 @@ struct APPLStockTemplate: View {
                 
                 Text("APPL - Apple.inc")
                     .padding(.horizontal, 50)
+                    .font(.subheadline)
+                    .bold()
                 
-                Image("StockGraph")
+                Image("StockGraph1")
                     .resizable()
                     .frame(width: 100, height: 100)
                 
