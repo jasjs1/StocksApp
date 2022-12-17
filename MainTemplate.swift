@@ -24,6 +24,8 @@ struct MainTemplate: View {
                 
                 Text("PH - ph.inc")
                     .padding(.horizontal, 50)
+                    .bold()
+                    .font(.subheadline)
                 
                 Image("StockGraph")
                     .resizable()
