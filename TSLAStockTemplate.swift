@@ -26,6 +26,7 @@ struct TSLAStockTempalte: View {
                 Text("Tesla - Tesla.inc")
                     .padding(.horizontal, 50)
                     .font(.subheadline)
+                    .bold()
                 
                 Image("StockGraph2")
                     .resizable()
