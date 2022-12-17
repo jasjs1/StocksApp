@@ -26,6 +26,7 @@ struct MSFTStockTemplate: View {
                 
                 Text("Microsoft - Microsoft.inc")
                     .padding(.horizontal, 50)
+                    .bold()
                 
                 Image("StockGraph")
                     .resizable()
